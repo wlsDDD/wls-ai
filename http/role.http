@@ -1,0 +1,23 @@
+### 角色列表
+GET http://{{host}}/role/page
+
+### 根据ID获取角色
+GET http://{{host}}/role/3
+
+### 添加角色
+POST http://{{host}}/role
+Content-Type: application/json
+
+{
+  "roleKey": "list",
+  "roleSort": 5
+}
+
+### 根据ID修改角色
+PUT http://{{host}}/role
+
+### 根据ID删除角色
+DELETE http://{{host}}/role/{{id}}
+
+
+

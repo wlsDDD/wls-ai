@@ -1,0 +1,14 @@
+### 部门列表
+GET http://{{host}}/dept/list
+#Content-Type: application/json
+#
+#{
+#  "orders": [
+#    {
+#      "column": "create_time",
+#      "asc": true
+#    }
+#  ]
+#}
+
+

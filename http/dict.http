@@ -1,0 +1,24 @@
+### 分页列表
+GET http://{{host}}/dict-data/page
+
+
+
+### 新增
+POST http://{{host}}/dict-data
+Content-Type: application/json
+
+{
+  "dictCode": 0,
+  "dictSort": 0,
+  "dictLabel": "",
+  "dictValue": ""
+}
+
+
+
+### 删除
+DELETE http://{{host}}/dict-data/1,2,3
+
+
+
+

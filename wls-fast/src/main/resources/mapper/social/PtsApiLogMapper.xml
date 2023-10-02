@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="plus.wls.social.mapper.PtsApiLogMapper">
+    
+    <resultMap type="plus.wls.social.entity.PtsApiLog" id="PtsApiLogResult">
+        <result property="id"    column="id"    />
+        <result property="requestUrl"    column="request_url"    />
+        <result property="requestPtsUrl"    column="request_pts_url"    />
+        <result property="requestMethod"    column="request_method"    />
+        <result property="requestPtsPath"    column="request_pts_path"    />
+        <result property="requestParam"    column="request_param"    />
+        <result property="responseBody"    column="response_body"    />
+        <result property="requestId"    column="request_id"    />
+        <result property="requestNum"    column="request_num"    />
+        <result property="costTime"    column="cost_time"    />
+        <result property="requestIp"    column="request_ip"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateTime"    column="update_time"    />
+    </resultMap>
+
+    <sql id="selectPtsApiLogVo">
+        select id,
+               request_url,
+               request_pts_url,
+               request_method,
+               request_pts_path,
+               request_param,
+               response_body,
+               request_id,
+               request_num,
+               cost_time,
+               request_ip,
+               create_time,
+               update_time
+        from pts_api_log
+    </sql>
+
+    <select id="selectPtsApiLogList" parameterType="plus.wls.social.entity.PtsApiLog" resultMap="PtsApiLogResult">
+        <include refid="selectPtsApiLogVo"/>
+        <where>
+            <if test="requestUrl != null  and requestUrl != ''"> and request_url like concat('%', #{requestUrl}, '%')</if>
+            <if test="requestPtsUrl != null  and requestPtsUrl != ''"> and request_pts_url like concat('%', #{requestPtsUrl}, '%')</if>
+            <if test="requestId != null  and requestId != ''"> and request_id = #{requestId}</if>
+            <if test="requestNum != null  and requestNum != ''"> and request_num = #{requestNum}</if>
+            <if test="costTime != null  and costTime != ''"> and cost_time = #{costTime}</if>
+            <if test="requestIp != null  and requestIp != ''"> and request_ip = #{requestIp}</if>
+            <if test="params.beginCreateTime != null and params.beginCreateTime != '' and params.endCreateTime != null and params.endCreateTime != ''"> and create_time between #{params.beginCreateTime} and #{params.endCreateTime}</if>
+        </where>
+        ORDER BY id DESC
+    </select>
+    
+    <select id="selectPtsApiLogById" parameterType="String" resultMap="PtsApiLogResult">
+        <include refid="selectPtsApiLogVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertPtsApiLog" parameterType="plus.wls.social.entity.PtsApiLog" useGeneratedKeys="true" keyProperty="id">
+        insert into pts_api_log
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="requestUrl != null and requestUrl != ''">request_url,</if>
+            <if test="requestPtsUrl != null and requestPtsUrl != ''">request_pts_url,</if>
+            <if test="requestParam != null and requestParam != ''">request_param,</if>
+            <if test="responseBody != null and responseBody != ''">response_body,</if>
+            <if test="requestId != null and requestId != ''">request_id,</if>
+            <if test="requestNum != null and requestNum != ''">request_num,</if>
+            <if test="costTime != null and costTime != ''">cost_time,</if>
+            <if test="requestIp != null and requestIp != ''">request_ip,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateTime != null">update_time,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="requestUrl != null and requestUrl != ''">#{requestUrl},</if>
+            <if test="requestPtsUrl != null and requestPtsUrl != ''">#{requestPtsUrl},</if>
+            <if test="requestParam != null and requestParam != ''">#{requestParam},</if>
+            <if test="responseBody != null and responseBody != ''">#{responseBody},</if>
+            <if test="requestId != null and requestId != ''">#{requestId},</if>
+            <if test="requestNum != null and requestNum != ''">#{requestNum},</if>
+            <if test="costTime != null and costTime != ''">#{costTime},</if>
+            <if test="requestIp != null and requestIp != ''">#{requestIp},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+         </trim>
+    </insert>
+
+    <update id="updatePtsApiLog" parameterType="plus.wls.social.entity.PtsApiLog">
+        update pts_api_log
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="requestUrl != null and requestUrl != ''">request_url = #{requestUrl},</if>
+            <if test="requestPtsUrl != null and requestPtsUrl != ''">request_pts_url = #{requestPtsUrl},</if>
+            <if test="requestParam != null and requestParam != ''">request_param = #{requestParam},</if>
+            <if test="responseBody != null and responseBody != ''">response_body = #{responseBody},</if>
+            <if test="requestId != null and requestId != ''">request_id = #{requestId},</if>
+            <if test="requestNum != null and requestNum != ''">request_num = #{requestNum},</if>
+            <if test="costTime != null and costTime != ''">cost_time = #{costTime},</if>
+            <if test="requestIp != null and requestIp != ''">request_ip = #{requestIp},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deletePtsApiLogById" parameterType="String">
+        delete from pts_api_log where id = #{id}
+    </delete>
+
+    <delete id="deletePtsApiLogByIds" parameterType="String">
+        delete from pts_api_log where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

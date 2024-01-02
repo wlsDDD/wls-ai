@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>plus.wls</groupId>
+        <artifactId>wls-cloud</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    
+    <artifactId>wls-system</artifactId>
+    <name>wls-system</name>
+    <description>系统核心项目</description>
+    
+    <dependencies>
+        <!--分库分表-->
+        <!--<dependency>-->
+        <!--    <groupId>org.apache.shardingsphere</groupId>-->
+        <!--    <artifactId>shardingsphere-jdbc-core-spring-boot-starter</artifactId>-->
+        <!--</dependency>-->
+        
+        <!--***************************************** 项目内部依赖 ****************************************************-->
+        <dependency>
+            <groupId>plus.wls</groupId>
+            <artifactId>wls-dict-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>plus.wls</groupId>
+            <artifactId>wls-common-swagger</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>plus.wls</groupId>
+            <artifactId>wls-common-gencode</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>plus.wls</groupId>
+            <artifactId>wls-common-log</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>plus.wls</groupId>
+            <artifactId>wls-common-redis</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.mybatis-flex</groupId>
+            <artifactId>mybatis-flex-spring-boot-starter</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+        
+        <!-- <dependency> -->
+        <!--     <groupId>plus.wls</groupId> -->
+        <!--     <artifactId>wls-common-pulsar</artifactId> -->
+        <!-- </dependency> -->
+        
+        <!--热启动依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.4</version>
+                <configuration>
+                    <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- 打包源码插件 -->
+            <!-- <plugin> -->
+            <!--     <groupId>org.apache.maven.plugins</groupId> -->
+            <!--     <artifactId>maven-source-plugin</artifactId> -->
+            <!--     <version>2.1.2</version> -->
+            <!--     <configuration> -->
+            <!--         <attach>true</attach> -->
+            <!--     </configuration> -->
+            <!--     <executions> -->
+            <!--         <execution> -->
+            <!--             <phase>compile</phase> -->
+            <!--             <goals> -->
+            <!--                 <goal>jar</goal> -->
+            <!--             </goals> -->
+            <!--         </execution> -->
+            <!--     </executions> -->
+            <!-- </plugin> -->
+            <!-- 文档插件 -->
+            <!-- <plugin> -->
+            <!--     <groupId>com.github.shalousun</groupId> -->
+            <!--     <artifactId>smart-doc-maven-plugin</artifactId> -->
+            <!--     <version>2.3.0</version> -->
+            <!--     <configuration> -->
+            <!--         &lt;!&ndash;指定生成文档的使用的配置文件,配置文件放在自己的项目中&ndash;&gt; -->
+            <!--         <configFile>./src/main/resources/smart-doc.json</configFile> -->
+            <!--         &lt;!&ndash;指定项目名称&ndash;&gt; -->
+            <!--         <projectName>wls-cloud</projectName> -->
+            <!--         &lt;!&ndash;smart-doc实现自动分析依赖树加载第三方依赖的源码，如果一些框架依赖库加载不到导致报错，这时请使用excludes排除掉&ndash;&gt; -->
+            <!--         <excludes> -->
+            <!--             &lt;!&ndash;格式为：groupId:artifactId;参考如下&ndash;&gt; -->
+            <!--             &lt;!&ndash;也可以支持正则式如：com.alibaba:.* &ndash;&gt; -->
+            <!--             <exclude>com.alibaba:fastjson</exclude> -->
+            <!--         </excludes> -->
+            <!--         &lt;!&ndash;自1.0.8版本开始，插件提供includes支持,配置了includes后插件会按照用户配置加载而不是自动加载，因此使用时需要注意&ndash;&gt; -->
+            <!--         &lt;!&ndash;smart-doc能自动分析依赖树加载所有依赖源码，原则上会影响文档构建效率，因此你可以使用includes来让插件加载你配置的组件&ndash;&gt; -->
+            <!--         <includes> -->
+            <!--             &lt;!&ndash;格式为：groupId:artifactId;参考如下&ndash;&gt; -->
+            <!--             &lt;!&ndash;也可以支持正则式如：com.alibaba:.* &ndash;&gt; -->
+            <!--             <include>com.alibaba:fastjson</include> -->
+            <!--         </includes> -->
+            <!--     </configuration> -->
+            <!--     <executions> -->
+            <!--         <execution> -->
+            <!--             &lt;!&ndash;如果不需要在执行编译时启动smart-doc，则将phase注释掉&ndash;&gt; -->
+            <!--             <phase>compile</phase> -->
+            <!--             <goals> -->
+            <!--                 &lt;!&ndash;smart-doc提供了html、openapi、markdown等goal，可按需配置&ndash;&gt; -->
+            <!--                 <goal>html</goal> -->
+            <!--             </goals> -->
+            <!--         </execution> -->
+            <!--     </executions> -->
+            <!-- </plugin> -->
+        </plugins>
+    </build>
+
+</project>

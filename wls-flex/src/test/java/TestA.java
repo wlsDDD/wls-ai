@@ -7,7 +7,7 @@ public class TestA {
     public static void main(String[] args) {
         // 配置数据源
         HikariDataSource dataSource = new HikariDataSource();
-        dataSource.setJdbcUrl("jdbc:mysql://159.75.93.83:3306/wls-ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8");
+        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/wls-ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8");
         dataSource.setUsername("root");
         dataSource.setPassword("wls-mysql-tencent");
         

@@ -11,7 +11,7 @@ class Test01 {
     void test01() {
         String outputDir = System.getProperty("user.dir");
         String moduleName = "";
-        FastAutoGenerator.create("jdbc:mysql://159.75.93.83:3306/wls-gencode?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true",
+        FastAutoGenerator.create("jdbc:mysql://localhost:3306/wls-gencode?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true",
                                  "root", "wls-mysql-tencent")
                          .globalConfig(builder ->
                                  builder.author("wls").fileOverride().outputDir(outputDir + "/src/main/java"))

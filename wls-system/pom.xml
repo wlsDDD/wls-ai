@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>plus.wls</groupId>
-        <artifactId>wls-cloud</artifactId>
+        <artifactId>wls-ai</artifactId>
         <version>1.0.0</version>
     </parent>
     
@@ -105,7 +105,7 @@
             <!--         &lt;!&ndash;指定生成文档的使用的配置文件,配置文件放在自己的项目中&ndash;&gt; -->
             <!--         <configFile>./src/main/resources/smart-doc.json</configFile> -->
             <!--         &lt;!&ndash;指定项目名称&ndash;&gt; -->
-            <!--         <projectName>wls-cloud</projectName> -->
+            <!--         <projectName>wls-ai</projectName> -->
             <!--         &lt;!&ndash;smart-doc实现自动分析依赖树加载第三方依赖的源码，如果一些框架依赖库加载不到导致报错，这时请使用excludes排除掉&ndash;&gt; -->
             <!--         <excludes> -->
             <!--             &lt;!&ndash;格式为：groupId:artifactId;参考如下&ndash;&gt; -->

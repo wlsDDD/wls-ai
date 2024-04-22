@@ -13,7 +13,7 @@ public class GlobalConstants {
     /**
      * 项目名称
      */
-    public static String projectName = "wls-cloud";
+    public static String projectName = "wls-ai";
     /**
      * 服务名称
      */

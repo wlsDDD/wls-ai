@@ -39,7 +39,7 @@ public class SwaggerConfig {
     
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("wls-cloud")
+                .title("wls-ai")
                 .description("接口文档")
                 .termsOfServiceUrl("https://wls.plus/")
                 .version("V1.0.0")

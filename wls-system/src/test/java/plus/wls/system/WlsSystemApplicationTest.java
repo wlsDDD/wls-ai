@@ -21,7 +21,7 @@ class WlsSystemApplicationTest {
     
     @Test
     public void test02() {
-        Set<String> keys = redisTemplate.keys("wls-cloud:wls-system:dev:method-cache*");
+        Set<String> keys = redisTemplate.keys("wls-ai:wls-system:dev:method-cache*");
     }
     
     @Test

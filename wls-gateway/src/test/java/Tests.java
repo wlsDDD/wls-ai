@@ -13,8 +13,8 @@ import java.util.TreeMap;
 @Slf4j
 public class Tests {
     
-    String appKey = "wls-cloud-app-key";
-    String appSecret = "wls-cloud-app-secret";
+    String appKey = "wls-ai-app-key";
+    String appSecret = "wls-ai-app-secret";
     String timestamp = System.currentTimeMillis() + "";
     String version = "1.0.0";
     

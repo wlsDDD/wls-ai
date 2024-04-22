@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>plus.wls</groupId>
-    <artifactId>wls-cloud</artifactId>
+    <artifactId>wls-ai</artifactId>
     <version>1.0.0</version>
     
-    <name>wls-cloud</name>
+    <name>wls-ai</name>
     <url>https://wls.plus</url>
     <description>wls起步 -- 微服务聚合工程</description>
     

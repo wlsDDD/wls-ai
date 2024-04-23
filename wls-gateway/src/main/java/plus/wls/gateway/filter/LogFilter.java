@@ -26,8 +26,9 @@ public class LogFilter implements GlobalFilter, Ordered {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         ServerHttpResponse response = exchange.getResponse();
-
-//        response.bufferFactory().allocateBuffer().
+        
+        
+        // response.bufferFactory().allocateBuffer().
         return chain.filter(exchange);
     }
     

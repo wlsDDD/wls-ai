@@ -26,7 +26,7 @@ import reactor.core.publisher.Mono;
 public class GatewayExceptionHandler implements ErrorWebExceptionHandler {
     
     @Override
-    @SuppressWarnings(SuppressWarningConstants.HIDING)
+    // @SuppressWarnings(SuppressWarningConstants.HIDING)
     public Mono<Void> handle(ServerWebExchange exchange, Throwable e) {
         if (exchange.getResponse().isCommitted()) {
             return Mono.error(e);

@@ -1,12 +1,12 @@
 <?php
 // +----------------------------------------------------------------------
-// | ShopXO 国内领先企业级B2C免费开源电商系统
+// |
 // +----------------------------------------------------------------------
-// | Copyright (c) 2011~2099 http://shopxo.net All rights reserved.
+// |
 // +----------------------------------------------------------------------
-// | Licensed ( https://opensource.org/licenses/mit-license.php )
+// |
 // +----------------------------------------------------------------------
-// | Author: Devil
+// | Author: wls
 // +----------------------------------------------------------------------
 
 // 应用公共文件
@@ -1591,8 +1591,8 @@ function WebEnv()
 
 /**
  * 判断当前是否小程序环境中
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2019-06-29T22:21:44+0800
  */
@@ -2428,8 +2428,8 @@ function PathToParams($key = null, $default = null, $path = '')
 
 /**
  * 应用控制器调用
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @date     2020-01-02
  * @param    [string]          $plugins        [应用标记]
@@ -2447,8 +2447,8 @@ function PluginsControlCall($plugins, $control, $action, $group = 'index', $para
 
 /**
  * 调用插件服务层方法 - 获取插件配置信息
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2019-10-16T22:03:48+0800
  * @param    [string]          $plugins             [插件名称]
@@ -2497,8 +2497,8 @@ function CallPluginsData($plugins, $attachment_field = [], $service_name = '', $
 
 /**
  * 调用插件服务层方法 - 访问为静态
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2019-07-10T22:03:48+0800
  * @param    [string]          $plugins   [插件名称]
@@ -2539,8 +2539,8 @@ function CallPluginsServiceMethod($plugins, $service, $method, $params1 = null, 
 
 /**
  * RGB 转 十六进制
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2019-06-08T18:38:16+0800
  * @param    [string]        $rgb [reg颜色值]
@@ -2574,8 +2574,8 @@ function RgbToHex($rgb)
 
 /**
  * 十六进制 转 RGB
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2019-06-08T18:33:45+0800
  * @param    [string]        $hex_color [十六进制颜色值]
@@ -2604,8 +2604,8 @@ function HexToRgb($hex_color) {
 
 /**
  * 字符串转ascii
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2019-06-02T01:13:47+0800
  * @param    [string]          $str [字符串]
@@ -2643,8 +2643,8 @@ function StrToAscii($str)
 
 /**
  * ascii转字符串
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2019-06-02T01:14:04+0800
  * @param    [string]       $ascii [ascii]
@@ -2674,7 +2674,7 @@ function AsciiToStr($ascii)
 
 /**
  * 获取当前系统所在根路径
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2019-04-09
@@ -2710,7 +2710,7 @@ function GetDocumentRoot()
 
 /**
  * 生成随机字符串
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2019-04-04
@@ -2731,7 +2731,7 @@ function RandomString($length = 6)
 
 /**
  * each函数
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2019-02-26
@@ -2760,7 +2760,7 @@ function FunEach(&$data)
 
 /**
  * 金额格式化
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2019-02-20
@@ -2776,7 +2776,7 @@ function PriceNumberFormat($value, $decimals = 2, $dec_point = '.')
 
 /**
  * json带格式输出
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2019-02-13
@@ -2836,8 +2836,8 @@ function JsonFormat($data, $indent = null)
 
 /**
  * 文件大小转常用单位
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2018-11-28T01:05:29+0800
  * @param    [int]                   $bit [字节数]
@@ -2857,7 +2857,7 @@ function FileSizeByteToUnit($bit)
 
 /**
  * 异步调用方法
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2018-06-11
@@ -2921,7 +2921,7 @@ function DataReturn($msg = '', $code = 0, $data = '')
 
 /**
  * 生成url地址
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2018-06-12
@@ -3047,7 +3047,7 @@ function MyUrl($path, $params = [])
 
 /**
  * 生成url地址 - api前端
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2018-06-12
@@ -3078,7 +3078,7 @@ function PluginsApiUrl($plugins_name, $plugins_control = '', $plugins_action = '
 
 /**
  * 生成url地址 - 应用前端
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2018-06-12
@@ -3109,7 +3109,7 @@ function PluginsHomeUrl($plugins_name, $plugins_control = '', $plugins_action = 
 
 /**
  * 生成url地址 - 应用后端
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2018-06-12
@@ -3133,8 +3133,8 @@ function PluginsAdminUrl($plugins_name, $plugins_control, $plugins_action, $para
 
 /**
  * 金额美化
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2018-04-12T16:54:51+0800
  * @param    [float]                  $price   [金额]
@@ -3164,8 +3164,8 @@ function PriceBeautify($price = 0, $default = '')
 
 /**
  * 文件上传错误校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2017-04-12T17:21:51+0800
  * @param    [string]     $name [表单name]
@@ -3216,8 +3216,8 @@ function FileUploadError($name, $index = false)
 
 /**
  * 公共数据翻转
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2017-04-07T11:32:02+0800
  * @param    [array]       $data        [需要翻转的数据]
@@ -3249,8 +3249,8 @@ function LangValueKeyFlip($data, $default = false, $value_field = 'id', $name_fi
 
 /**
  * 科学数字转换成原始的数字
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2017-04-06T17:21:51+0800
  * @param    [int]   $num [科学数字]
@@ -3274,8 +3274,8 @@ function ScienceNumToString($num)
 
 /**
  * 客户端ip地址
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2017-02-09T12:53:13+0800
  * @param    [boolean]        $long     [是否将ip转成整数]
@@ -3318,8 +3318,8 @@ function GetClientIP($long = false, $is_single = true)
 
 /**
  * url参数拼接
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2017-01-09T23:33:44+0800
  * @param    [array]      $param [url参数一维数组]
@@ -3388,8 +3388,8 @@ function MyC($key, $default = '', $mandatory = false)
 
 /**
  * 清空目录下所有文件
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-21T19:25:57+0800
  * @param    [string]    $dir_path [目录地址]
@@ -3421,8 +3421,8 @@ function EmptyDir($dir_path)
 
 /**
  * 计算符串长度（中英文一致）
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-13T21:34:09+0800
  * @param    [string]      $string [需要计算的字符串]
@@ -3506,8 +3506,8 @@ function DeviceType($agent = '')
 
 /**
  * 校验json数据是否合法
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $jsonstr [需要校验的json字符串]
@@ -3553,8 +3553,8 @@ function RequestGet($value, $timeout = 10)
 
 /**
  * curl模拟get请求
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2018-01-03T19:21:38+0800
  * @param    [string]   $url            [url地址]
@@ -3583,8 +3583,8 @@ function CurlGet($url, $timeout = 10, $request_type = '')
 
 /**
  * curl模拟post
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string]   $url            [请求地址]
@@ -3664,8 +3664,8 @@ function CurlPost($url, $post, $data_type = 0, $timeout = 30, $request_type = ''
 
 /**
  * fsockopen方式
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $url  [url地址]
@@ -3708,8 +3708,8 @@ function FsockopenPost($url, $data = '')
 
 /**
  * xml转数组
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [xml]       $xml [xml数据]
@@ -3721,7 +3721,7 @@ function XmlArray($xml) {
 
 /**
  * 判断字符串是否为xml格式
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2019-01-07
@@ -3742,8 +3742,8 @@ function XmlParser($string)
 
 /**
  * 手机号码格式校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [int] $mobile [手机号码]
@@ -3756,8 +3756,8 @@ function CheckMobile($mobile)
 
 /**
  * 电话号码格式校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $tel    [电话号码]
@@ -3770,8 +3770,8 @@ function CheckTel($tel)
 
 /**
  * 电子邮箱格式校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $email  [电子邮箱]
@@ -3784,8 +3784,8 @@ function CheckEmail($email)
 
 /**
  * 身份证号码格式校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $number [身份证号码]
@@ -3798,8 +3798,8 @@ function CheckIdCard($number)
 
 /**
  * 价格格式校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [float]  $price  [价格]
@@ -3813,8 +3813,8 @@ function CheckPrice($price)
 
 /**
  * ip校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $ip [ip]
@@ -3826,8 +3826,8 @@ function CheckIp($ip)
 
 /**
  * url校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $url [url地址]
@@ -3839,8 +3839,8 @@ function CheckUrl($url)
 
 /**
  * 版本号校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $ver [版本]
@@ -3852,8 +3852,8 @@ function CheckVersion($ver)
 
 /**
  * 用户名校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $string [用户名]
@@ -3866,8 +3866,8 @@ function CheckUserName($string)
 
 /**
  * 排序值校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [int] $value  [数据值]
@@ -3881,8 +3881,8 @@ function CheckSort($value)
 
 /**
  * 颜色值校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $value [数据值]
@@ -3894,8 +3894,8 @@ function CheckColor($value)
 
 /**
  * 密码格式校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $string [登录密码]
@@ -3908,8 +3908,8 @@ function CheckLoginPwd($string)
 
 /**
  * 包含字母和数字
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $string [登录密码]
@@ -3922,8 +3922,8 @@ function CheckAlphaNumber($string)
 
 /**
  * 检测一张网络图片是否存在
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $url [图片地址]
@@ -3944,8 +3944,8 @@ function IsExistRemoteImage($url)
 
 /**
  * 随机数生成生成
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [int] $length [生成位数]
@@ -3960,8 +3960,8 @@ function GetNumberCode($length = 6)
 
 /**
  * 登录密码加密
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $pwd  [需要加密的密码]
@@ -3975,8 +3975,8 @@ function LoginPwdEncryption($pwd, $salt)
 
 /**
  * 支付密码加密
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $pwd  [需要加密的密码]
@@ -3990,8 +3990,8 @@ function PwdPayEncryption($pwd, $salt)
 
 /**
  * 密码强度校验
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string] $pwd [需要校验的密码]
@@ -4014,8 +4014,8 @@ function PwdStrength($pwd)
  
 /**
  * 坐标距离计算
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  *  $lng = '116.655540';
@@ -4050,8 +4050,8 @@ function ReturnSquarePoint($lng, $lat, $distance = 1.2)
 
 /**
  * 明文或密文
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-03T21:58:54+0800
  * @param    [string]  $string    [明文或密文]
@@ -4132,8 +4132,8 @@ function Authcode($string, $operation = 'DECODE', $key = '', $expiry = 0)
 
 /**
  * 参数校验方法
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  1.0.0
  * @datetime 2017-12-12T15:26:13+0800
  * @param    [array]                   $data   [原始数据]

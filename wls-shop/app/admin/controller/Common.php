@@ -1,12 +1,12 @@
 <?php
 // +----------------------------------------------------------------------
-// | ShopXO 国内领先企业级B2C免费开源电商系统
+// |
 // +----------------------------------------------------------------------
-// | Copyright (c) 2011~2099 http://shopxo.net All rights reserved.
+// |
 // +----------------------------------------------------------------------
-// | Licensed ( https://opensource.org/licenses/mit-license.php )
+// |
 // +----------------------------------------------------------------------
-// | Author: Devil
+// | Author: wls
 // +----------------------------------------------------------------------
 namespace app\admin\controller;
 
@@ -23,8 +23,8 @@ use app\service\ConfigService;
 
 /**
  * 管理员公共控制器
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-01T21:51:08+0800
  */
@@ -93,7 +93,7 @@ class Common extends BaseController
 
 	/**
      * 构造方法
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2018-11-30
@@ -127,7 +127,7 @@ class Common extends BaseController
 
     /**
      * 析构函数
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2019-03-18
@@ -141,7 +141,7 @@ class Common extends BaseController
 
 	/**
      * 系统初始化
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2018-12-07
@@ -160,8 +160,8 @@ class Common extends BaseController
 
 	/**
 	 * 登录校验
-	 * @author   Devil
-	 * @blog     http://gong.gg/
+	 * @author   wls
+	 *
 	 * @version  0.0.1
 	 * @datetime 2016-12-03T12:42:35+0800
 	 */
@@ -183,8 +183,8 @@ class Common extends BaseController
 
 	/**
 	 * 视图初始化
-	 * @author   Devil
-	 * @blog     http://gong.gg/
+	 * @author   wls
+	 *
 	 * @version  0.0.1
 	 * @datetime 2016-12-03T12:30:06+0800
 	 */
@@ -522,8 +522,8 @@ class Common extends BaseController
 
 	/**
 	 * 是否有权限
-	 * @author   Devil
-	 * @blog     http://gong.gg/
+	 * @author   wls
+	 *
 	 * @version  0.0.1
 	 * @datetime 2016-12-20T19:18:29+0800
 	 */
@@ -561,7 +561,7 @@ class Common extends BaseController
 
     /**
      * 空方法响应
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2018-11-30
@@ -583,7 +583,7 @@ class Common extends BaseController
 
     /**
      * 公共钩子初始化
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2018-12-07

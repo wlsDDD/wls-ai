@@ -1,12 +1,12 @@
 <?php
 // +----------------------------------------------------------------------
-// | ShopXO 国内领先企业级B2C免费开源电商系统
+// |
 // +----------------------------------------------------------------------
-// | Copyright (c) 2011~2099 http://shopxo.net All rights reserved.
+// |
 // +----------------------------------------------------------------------
-// | Licensed ( https://opensource.org/licenses/mit-license.php )
+// |
 // +----------------------------------------------------------------------
-// | Author: Devil
+// | Author: wls
 // +----------------------------------------------------------------------
 namespace app\admin\controller;
 
@@ -21,8 +21,8 @@ use app\service\ResourcesService;
 
 /**
  * 站点设置
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-01T21:51:08+0800
  */
@@ -33,8 +33,8 @@ class Site extends Base
 
     /**
      * 构造方法
-     * @author   Devil
-     * @blog     http://gong.gg/
+     * @author   wls
+     *
      * @version  0.0.1
      * @datetime 2016-12-03T12:39:08+0800
      */

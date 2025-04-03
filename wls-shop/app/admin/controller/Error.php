@@ -1,12 +1,12 @@
 <?php
 // +----------------------------------------------------------------------
-// | ShopXO 国内领先企业级B2C免费开源电商系统
+// |
 // +----------------------------------------------------------------------
-// | Copyright (c) 2011~2099 http://shopxo.net All rights reserved.
+// |
 // +----------------------------------------------------------------------
-// | Licensed ( https://opensource.org/licenses/mit-license.php )
+// |
 // +----------------------------------------------------------------------
-// | Author: Devil
+// | Author: wls
 // +----------------------------------------------------------------------
 namespace app\admin\controller;
 
@@ -14,7 +14,7 @@ use app\service\ApiService;
 
 /**
  * 空控制器响应
- * @author   Devil
+ * @author   wls
  * @blog    http://gong.gg/
  * @version 1.0.0
  * @date    2018-11-30
@@ -24,7 +24,7 @@ class Error extends Common
 {
     /**
      * 空控制器响应
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2018-11-30

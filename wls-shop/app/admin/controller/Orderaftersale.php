@@ -1,12 +1,12 @@
 <?php
 // +----------------------------------------------------------------------
-// | ShopXO 国内领先企业级B2C免费开源电商系统
+// |
 // +----------------------------------------------------------------------
-// | Copyright (c) 2011~2099 http://shopxo.net All rights reserved.
+// |
 // +----------------------------------------------------------------------
-// | Licensed ( https://opensource.org/licenses/mit-license.php )
+// |
 // +----------------------------------------------------------------------
-// | Author: Devil
+// | Author: wls
 // +----------------------------------------------------------------------
 namespace app\admin\controller;
 
@@ -16,8 +16,8 @@ use app\service\OrderAftersaleService;
 
 /**
  * 订单售后
- * @author   Devil
- * @blog     http://gong.gg/
+ * @author   wls
+ *
  * @version  0.0.1
  * @datetime 2016-12-01T21:51:08+0800
  */
@@ -25,7 +25,7 @@ class Orderaftersale extends Base
 {
     /**
      * 列表
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2018-09-28
@@ -40,8 +40,8 @@ class Orderaftersale extends Base
 
     /**
      * 详情
-     * @author   Devil
-     * @blog     http://gong.gg/
+     * @author   wls
+     *
      * @version  1.0.0
      * @datetime 2019-08-05T08:21:54+0800
      */
@@ -100,7 +100,7 @@ class Orderaftersale extends Base
 
     /**
      * 取消
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2018-09-30
@@ -116,7 +116,7 @@ class Orderaftersale extends Base
 
     /**
      * 删除
-     * @author   Devil
+     * @author   wls
      * @blog    http://gong.gg/
      * @version 1.0.0
      * @date    2018-09-30

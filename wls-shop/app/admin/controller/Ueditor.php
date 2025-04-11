@@ -41,7 +41,7 @@ class Ueditor extends Common
     /**
      * 运行入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-08-06
      * @desc    description

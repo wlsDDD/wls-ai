@@ -17,7 +17,7 @@ use app\service\RegionService;
 /**
  * 仓库动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-07
  * @desc    description
@@ -32,7 +32,7 @@ class Warehouse
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-16
      * @desc    description
@@ -221,7 +221,7 @@ class Warehouse
     /**
      * 获取地区数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-08
      * @desc    description

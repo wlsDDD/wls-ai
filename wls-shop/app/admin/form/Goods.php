@@ -18,7 +18,7 @@ use app\service\BrandService;
 /**
  * 商品动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-05-16
  * @desc    description
@@ -33,7 +33,7 @@ class Goods
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-05-16
      * @desc    description
@@ -330,7 +330,7 @@ class Goods
     /**
      * 商品分类条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-03
      * @desc    description

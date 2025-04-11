@@ -8,17 +8,20 @@
 // +----------------------------------------------------------------------
 // | Author: wls
 // +----------------------------------------------------------------------
-namespace app\admin\controller;
+namespace app\api\controller;
+
+use app\service\ApiService;
+use app\service\SystemBaseService;
+use app\service\AppHomeNavService;
 
 /**
- * 地图
- * @author  Devil
+ * 导航
+ * @author   wls
  *
- * @version 1.0.0
- * @date    2020-09-10
- * @desc    description
+ * @version  0.0.1
+ * @datetime 2016-12-01T21:51:08+0800
  */
-class Map extends Common
+class Navigation extends Common
 {
     /**
      * 构造方法
@@ -31,24 +34,20 @@ class Map extends Common
     {
         // 调用父类前置方法
         parent::__construct();
-
-        // 登录校验
-        $this->IsLogin();
     }
 
     /**
-     * 地图插件页面
-     * @author  Devil
+     * [Index 入口]
+     * @author   wls
      *
-     * @version 1.0.0
-     * @date    2020-09-10
-     * @desc    description
+     * @version  1.0.0
+     * @datetime 2018-05-25T11:03:59+0800
      */
     public function Index()
     {
-        // 加载地图
-        MyViewAssign('is_load_map_api', 1);
-        return MyView();
+        // 获取轮播
+        $result = AppHomeNavService::AppHomeNav();
+        return ApiService::ApiDataReturn(SystemBaseService::DataReturn($result));
     }
 }
 ?>

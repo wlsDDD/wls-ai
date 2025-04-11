@@ -16,7 +16,7 @@ use app\service\RefundLogService;
 /**
  * 退款日志动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-27
  * @desc    description
@@ -29,7 +29,7 @@ class RefundLog
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-27
      * @desc    description
@@ -229,7 +229,7 @@ class RefundLog
     /**
      * 支付方式类型
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-27
      * @desc    description
@@ -254,7 +254,7 @@ class RefundLog
     /**
      * 业务类型
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-26
      * @desc    description

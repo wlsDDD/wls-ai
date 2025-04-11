@@ -18,7 +18,7 @@ use app\service\ResourcesService;
 /**
  * 自定义页面
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-09-10
  * @desc    description
@@ -28,7 +28,7 @@ class CustomView extends Common
     /**
      * 首页
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-10
      * @desc    description

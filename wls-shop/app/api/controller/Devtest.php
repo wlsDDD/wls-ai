@@ -29,7 +29,7 @@ class Devtest extends Common
     /**
      * 构造方法
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-11-30
      * @desc    description
@@ -80,7 +80,7 @@ class Devtest extends Common
     /**
      * 订单地址拆分到新的表，1.7升级1.8升级运行
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-12-13
      * @desc    description
@@ -139,7 +139,7 @@ class Devtest extends Common
     /**
      * 商品库存初始化
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-29
      * @desc    description
@@ -282,7 +282,7 @@ class Devtest extends Common
     /**
      * 支付日志处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-26
      * @desc    description
@@ -356,7 +356,7 @@ class Devtest extends Common
     /**
      * 退款日志处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-26
      * @desc    description
@@ -406,7 +406,7 @@ class Devtest extends Common
     /**
      * 消息数据处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-26
      * @desc    description
@@ -456,7 +456,7 @@ class Devtest extends Common
     /**
      * 品牌分类数据处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-08-01
      * @desc    description
@@ -508,7 +508,7 @@ class Devtest extends Common
     /**
      * 语言翻译生成
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2023-03-24
      * @desc    description
@@ -619,7 +619,7 @@ class Devtest extends Common
     /**
      * 插件语言翻译生成
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2023-03-24
      * @desc    description
@@ -728,7 +728,7 @@ class Devtest extends Common
     /**
      * 语言翻译生成自定义文件片段
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2023-03-24
      * @desc    description

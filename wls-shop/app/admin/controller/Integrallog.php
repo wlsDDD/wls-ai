@@ -36,7 +36,7 @@ class IntegralLog extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-29
      * @desc    description

@@ -15,7 +15,7 @@ use app\service\ArticleCategoryService;
 /**
  * 文章动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-16
  * @desc    description
@@ -28,7 +28,7 @@ class Article
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-16
      * @desc    description
@@ -222,7 +222,7 @@ class Article
     /**
      * 获取文章分类列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-11
      * @desc    description

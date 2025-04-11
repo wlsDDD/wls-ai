@@ -17,7 +17,7 @@ use app\service\DiyApiService;
 /**
  * DiyApi接口
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-07-18
  * @desc    description
@@ -27,7 +27,7 @@ class DiyApi extends Base
     /**
      * 公共初始化
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -40,7 +40,7 @@ class DiyApi extends Base
     /**
      * 附件分类
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -53,7 +53,7 @@ class DiyApi extends Base
     /**
      * 附件列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -66,7 +66,7 @@ class DiyApi extends Base
     /**
      * 附件保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -79,7 +79,7 @@ class DiyApi extends Base
     /**
      * 附件删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -92,7 +92,7 @@ class DiyApi extends Base
     /**
      * 附件上传
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -105,7 +105,7 @@ class DiyApi extends Base
     /**
      * 远程下载
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -118,7 +118,7 @@ class DiyApi extends Base
     /**
      * 附件扫码上传数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -131,7 +131,7 @@ class DiyApi extends Base
     /**
      * 附件移动分类
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -144,7 +144,7 @@ class DiyApi extends Base
     /**
      * 附件分类保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -157,7 +157,7 @@ class DiyApi extends Base
     /**
      * 附件分类删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -170,7 +170,7 @@ class DiyApi extends Base
     /**
      * 商品列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -183,7 +183,7 @@ class DiyApi extends Base
     /**
      * 自定义页面列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -196,7 +196,7 @@ class DiyApi extends Base
     /**
      * 页面设计列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -209,7 +209,7 @@ class DiyApi extends Base
     /**
      * 文章列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -222,7 +222,7 @@ class DiyApi extends Base
     /**
      * 品牌列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -235,7 +235,7 @@ class DiyApi extends Base
     /**
      * Diy装修列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -248,7 +248,7 @@ class DiyApi extends Base
     /**
      * Diy装修详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -261,7 +261,7 @@ class DiyApi extends Base
     /**
      * Diy装修保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -274,7 +274,7 @@ class DiyApi extends Base
     /**
      * Diy装修导入
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -287,7 +287,7 @@ class DiyApi extends Base
     /**
      * Diy装修导出
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -305,7 +305,7 @@ class DiyApi extends Base
     /**
      * diy模板安装
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description
@@ -318,7 +318,7 @@ class DiyApi extends Base
     /**
      * diy模板市场
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description
@@ -331,7 +331,7 @@ class DiyApi extends Base
     /**
      * 底部菜单保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -344,7 +344,7 @@ class DiyApi extends Base
     /**
      * 底部菜单数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -359,7 +359,7 @@ class DiyApi extends Base
     /**
      * 商品初始化
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -372,7 +372,7 @@ class DiyApi extends Base
     /**
      * 商品指定数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -385,7 +385,7 @@ class DiyApi extends Base
     /**
      * 商品自动数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -398,7 +398,7 @@ class DiyApi extends Base
     /**
      * 文章指定数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -411,7 +411,7 @@ class DiyApi extends Base
     /**
      * 文章自动数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -424,7 +424,7 @@ class DiyApi extends Base
     /**
      * 品牌指定数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -437,7 +437,7 @@ class DiyApi extends Base
     /**
      * 品牌自动数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -450,7 +450,7 @@ class DiyApi extends Base
     /**
      * 用户头部数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -463,7 +463,7 @@ class DiyApi extends Base
     /**
      * 自定义初始化
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description

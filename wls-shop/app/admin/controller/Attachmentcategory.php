@@ -17,7 +17,7 @@ use app\service\AttachmentCategoryService;
 /**
  * 附件分类管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-07-18
  * @desc    description
@@ -27,7 +27,7 @@ class AttachmentCategory extends Base
     /**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -40,7 +40,7 @@ class AttachmentCategory extends Base
     /**
      * 获取节点子列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -53,7 +53,7 @@ class AttachmentCategory extends Base
     /**
      * 保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description
@@ -68,7 +68,7 @@ class AttachmentCategory extends Base
     /**
      * 状态更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -83,7 +83,7 @@ class AttachmentCategory extends Base
     /**
      * 删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-07-18
      * @desc    description

@@ -151,7 +151,7 @@ class Payment extends Base
     /**
      * 安装
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-17
      * @desc    description
@@ -164,7 +164,7 @@ class Payment extends Base
     /**
      * 卸载
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-17
      * @desc    description
@@ -177,7 +177,7 @@ class Payment extends Base
     /**
      * 删除插件
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-17
      * @desc    description
@@ -190,7 +190,7 @@ class Payment extends Base
     /**
      * 上传插件
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-17
      * @desc    description
@@ -203,7 +203,7 @@ class Payment extends Base
     /**
      * 应用市场
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description

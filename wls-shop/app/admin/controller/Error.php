@@ -15,7 +15,7 @@ use app\service\ApiService;
 /**
  * 空控制器响应
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2018-11-30
  * @desc    description
@@ -25,7 +25,7 @@ class Error extends Common
     /**
      * 空控制器响应
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-11-30
      * @desc    description
@@ -47,7 +47,7 @@ class Error extends Common
     /**
      * 错误信息提示
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-08-17
      * @desc    description

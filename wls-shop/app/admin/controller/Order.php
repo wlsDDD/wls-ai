@@ -28,7 +28,7 @@ class Order extends Base
     /**
      * 订单列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -58,7 +58,7 @@ class Order extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -71,7 +71,7 @@ class Order extends Base
     /**
      * 发货页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -86,7 +86,7 @@ class Order extends Base
     /**
      * 服务页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -99,7 +99,7 @@ class Order extends Base
     /**
      * 订单删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -118,7 +118,7 @@ class Order extends Base
     /**
      * 订单取消
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -137,7 +137,7 @@ class Order extends Base
     /**
      * 订单发货、取货、服务
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -155,7 +155,7 @@ class Order extends Base
     /**
      * 订单收货
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -174,7 +174,7 @@ class Order extends Base
     /**
      * 订单确认
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -193,7 +193,7 @@ class Order extends Base
     /**
      * 订单支付
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description

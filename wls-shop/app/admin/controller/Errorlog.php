@@ -26,7 +26,7 @@ class ErrorLog extends Base
     /**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-08-01
      * @desc    description
@@ -39,7 +39,7 @@ class ErrorLog extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-08-01
      * @desc    description
@@ -52,7 +52,7 @@ class ErrorLog extends Base
     /**
      * 删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-28
      * @desc    description
@@ -67,7 +67,7 @@ class ErrorLog extends Base
     /**
      * 全部删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-11-18
      * @desc    description

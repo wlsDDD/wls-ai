@@ -22,7 +22,7 @@ use app\service\BrandService;
 /**
  * 商品管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-03-31
  * @desc    description
@@ -32,7 +32,7 @@ class Goods extends Base
 	/**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -45,7 +45,7 @@ class Goods extends Base
 	/**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -74,7 +74,7 @@ class Goods extends Base
 	/**
 	 * 添加/编辑页面
 	 * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -156,7 +156,7 @@ class Goods extends Base
 	/**
 	 * 添加/编辑
 	 * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -171,7 +171,7 @@ class Goods extends Base
 	/**
 	 * 删除
 	 * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -186,7 +186,7 @@ class Goods extends Base
 	/**
 	 * 状态更新
 	 * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -201,7 +201,7 @@ class Goods extends Base
 	/**
      * 基础模板
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description

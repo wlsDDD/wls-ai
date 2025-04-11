@@ -25,7 +25,7 @@ use app\service\ConfigService;
 /**
  * 附件字节大小转换为单位
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-07-19
  * @desc    description
@@ -41,7 +41,7 @@ function AnnexSizeToUnit($size)
 /**
  * 金额转换成大写人民币
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-06-05
  * @desc    description
@@ -122,7 +122,7 @@ function PriceToRmb($price)
 /**
  * 成功提示
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-02-28
  * @desc    description
@@ -148,7 +148,7 @@ function ViewSuccess($msg = null, $url = null)
 /**
  * 错误提示
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-02-28
  * @desc    description
@@ -174,7 +174,7 @@ function ViewError($msg = null, $url = null)
 /**
  * 用户登录校验
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-02-28
  * @desc    description
@@ -205,7 +205,7 @@ function IsUserLogin($login_url = null)
 /**
  * 当前主题标识
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-04-10
  * @desc    description
@@ -278,7 +278,7 @@ function DefaultTheme($theme = null)
 /**
  * 静态文件地址
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-01-30
  * @desc    description
@@ -400,7 +400,7 @@ function StaticAttachmentUrl($value, $type = 'images')
 /**
  * 用户默认头像
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-01-30
  * @desc    description
@@ -414,7 +414,7 @@ function UserDefaultAvatar($size = 'md')
 /**
  * 递归对象转数组
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2023-11-20
  * @desc    description
@@ -442,7 +442,7 @@ function DataObjectToArray($data)
 /**
  * 两个数组字段对比处理、arr1不存在arr2中的字段则移除
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2022-11-12
  * @desc    description
@@ -467,7 +467,7 @@ function ArrayFieldContrastHandle($arr1, $arr2)
 /**
  * 获取汉字拼音、默认返回数组
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2022-10-09
  * @desc    description
@@ -484,7 +484,7 @@ function ChinesePinyin($string, $is_string = false, $join = '')
 /**
  * 获取汉字首字母
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2022-10-09
  * @desc    description
@@ -499,7 +499,7 @@ function ChineseLetter($string)
 /**
  * 弹出内容处理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2022-09-26
  * @desc    description
@@ -513,7 +513,7 @@ function PopoverContentHandle($content)
 /**
  * 生成uuid
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-10-30
  * @desc    description
@@ -532,7 +532,7 @@ function UUId()
 /**
  * 获取常量数据
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-08-14
  * @desc    description
@@ -547,7 +547,7 @@ function MyConst($key = '', $default = null)
 /**
  * session管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-17
  * @desc    description
@@ -572,7 +572,7 @@ function MySession($name = '', $value = '')
 /**
  * 获取语言
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2022-08-19
  * @desc    框架默认仅支持二级分组数据、这里做了支持N级处理（由于参数可能存在数组解析原因）这里单独处理不使用框架处理
@@ -724,7 +724,7 @@ function MyLang($key, $vars = [], $lang = '', $plugins = '')
 /**
  * 插件标识溯源
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-01-31
  * @desc    description
@@ -761,7 +761,7 @@ function PluginsNameBacktrace()
 /**
  * cookie管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-17
  * @desc    description
@@ -783,7 +783,7 @@ function MyCookie($name = '', $value = '', $is_encryption = true)
 /**
  * 缓存管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-17
  * @desc    description
@@ -814,7 +814,7 @@ function MyCache($name = null, $value = '', $options = null, $tag = null)
 /**
  * 环境变量配置
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-17
  * @desc    description
@@ -835,7 +835,7 @@ function MyEnv($key, $val = null)
 /**
  * 配置读取
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-17
  * @desc    description
@@ -855,7 +855,7 @@ function MyConfig($key)
 /**
  * 重定向
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -879,7 +879,7 @@ function MyRedirect($url, $is_exit = false)
 /**
  * 钩子事件定义
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -894,7 +894,7 @@ function MyEventTrigger($key, $params = [])
 /**
  * 视图赋值
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -919,7 +919,7 @@ function MyViewAssign($data, $value = '')
 /**
  * 视图调用
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -1006,7 +1006,7 @@ function MyView($view = '', $data = [])
 /**
  * 当前请求模块组名
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -1024,7 +1024,7 @@ function RequestModule()
 /**
  * 当前请求控制器名
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -1042,7 +1042,7 @@ function RequestController()
 /**
  * 当前请求方法名
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -1060,7 +1060,7 @@ function RequestAction()
 /**
  * 插件当前请求名称
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -1079,7 +1079,7 @@ function PluginsRequestName()
 /**
  * 插件当前请求方控制器
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -1097,7 +1097,7 @@ function PluginsRequestController()
 /**
  * 插件当前请求方法名
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -1115,7 +1115,7 @@ function PluginsRequestAction()
 /**
  * 获取链接http状态码
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-09
  * @desc    description
@@ -1151,7 +1151,7 @@ function GetHttpCode($url, $timeout = 5)
 /**
  * 判断是否是url地址
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-09
  * @desc    description
@@ -1165,7 +1165,7 @@ function IsUrl($value)
 /**
  * 快速排序
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-03-09
  * @desc    description
@@ -1218,7 +1218,7 @@ function ArrayQuickSort($data, $field, $type = 0)
 /**
  * 是否base64加密的字符串
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-02-28
  * @desc    description
@@ -1233,7 +1233,7 @@ function IsBase64($str)
 /**
  * 根据url地址解析顶级域名
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-02-25
  * @desc    description
@@ -1280,7 +1280,7 @@ function GetUrlHost($url)
 /**
  * 文件配置数据读写
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-11-13
  * @desc    description
@@ -1362,7 +1362,7 @@ function MyFileConfig($key, $value = '', $default = '', $mandatory = false)
 /**
  * 获取参数数据
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-09-23
  * @desc    description
@@ -1418,7 +1418,7 @@ function MyInput($key = null, $default = '')
 /**
  * 当前应用平台
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-09-11
  * @desc    description
@@ -1439,7 +1439,7 @@ function ApplicationClientType()
 /**
  * 是否微信环境
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-08-26
  * @desc    description
@@ -1453,7 +1453,7 @@ function IsWeixinEnv()
 /**
  * 是否钉钉环境
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-08-26
  * @desc    description
@@ -1467,7 +1467,7 @@ function IsDingdingEnv()
 /**
  * 是否QQ环境
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-08-26
  * @desc    description
@@ -1481,7 +1481,7 @@ function IsQQEnv()
 /**
  * 是否支付宝环境
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-08-26
  * @desc    description
@@ -1495,7 +1495,7 @@ function IsAlipayEnv()
 /**
  * 是否百度环境
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-08-26
  * @desc    description
@@ -1509,7 +1509,7 @@ function IsBaiduEnv()
 /**
  * 是否快手环境
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-08-26
  * @desc    description
@@ -1523,7 +1523,7 @@ function IsKuaishouEnv()
 /**
  * 是否新浪微博环境
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-08-26
  * @desc    description
@@ -1537,7 +1537,7 @@ function IsWeiboEnv()
 /**
  * web环境
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2023-10-24
  * @desc    description
@@ -1642,7 +1642,7 @@ function MiniAppEnv()
 /**
  * 笛卡尔积生成规格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-15
  * @desc    description
@@ -1686,7 +1686,7 @@ function SpecCartesian($arr1, $arr2 = [])
 /**
  * 后台管理权限校验方法
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-12
  * @desc    description
@@ -1724,7 +1724,7 @@ function AdminIsPower($controller = null, $action = null, $unwanted_power = [])
 /**
  * 获取数组字段名称
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-12
  * @desc    description
@@ -1749,7 +1749,7 @@ function ArrayKeys($data)
 /**
  * 商品销售模式
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-02
  * @desc    description
@@ -1774,7 +1774,7 @@ function GoodsSalesModelType($site_type)
 /**
  * 商品类型是否与站点类型一致
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-02
  * @desc    description
@@ -1881,7 +1881,7 @@ function IsGoodsSiteTypeConsistent($site_type)
 /**
  * 缓存安全验证次数处理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-03
  * @desc    description
@@ -1924,7 +1924,7 @@ function SecurityPreventViolence($key, $type = 1, $expire_time = 30)
 /**
  * 获取动态表格 form 路径
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-05
  * @desc    description
@@ -1986,7 +1986,7 @@ function FormModulePath($params = [])
 /**
  * 获取动态表格数据
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2022-10-08
  * @desc    description
@@ -2020,7 +2020,7 @@ function FormModuleData($params = [])
 /**
  * 动态表格数据列表处理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2025-01-09
  * @desc    description
@@ -2051,7 +2051,7 @@ function FormModuleDataListHandle($data, $params = [])
 /**
  * 动态表格数据返回结构处理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2025-01-09
  * @desc    description
@@ -2127,7 +2127,7 @@ function FormModuleStructReturn($data, $data_type, $params = [])
 /**
  * 获取动态表格字段数据
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-08-29
  * @desc    description
@@ -2171,7 +2171,7 @@ function FormModuleFieldData($form_data = [], $params = [])
 /**
  * 获取动态表格结构
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2022-10-08
  * @desc    description
@@ -2304,7 +2304,7 @@ function FormModuleStruct($params = [])
 /**
  * 模块视图动态加载方法
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-05-25
  * @desc    description
@@ -2335,7 +2335,7 @@ function ModuleInclude($template, $data = [], $params = [])
 /**
  * 钩子返回数据处理，是否存在错误
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-12-02
  * @desc    description
@@ -2359,7 +2359,7 @@ function EventReturnHandle($data)
 /**
  * 附件地址处理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-10-16
  * @desc    用于页面展示处理，非绝对路径的情况下自动加上http
@@ -2373,7 +2373,7 @@ function AttachmentPathViewHandle($value)
 /**
  * 路径解析指定参数
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-08-06
  * @desc    description
@@ -2675,7 +2675,7 @@ function AsciiToStr($ascii)
 /**
  * 获取当前系统所在根路径
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-04-09
  * @desc    description
@@ -2711,7 +2711,7 @@ function GetDocumentRoot()
 /**
  * 生成随机字符串
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-04-04
  * @desc    description
@@ -2732,7 +2732,7 @@ function RandomString($length = 6)
 /**
  * each函数
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-02-26
  * @desc    description
@@ -2761,7 +2761,7 @@ function FunEach(&$data)
 /**
  * 金额格式化
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-02-20
  * @desc    description
@@ -2777,7 +2777,7 @@ function PriceNumberFormat($value, $decimals = 2, $dec_point = '.')
 /**
  * json带格式输出
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-02-13
  * @desc    description
@@ -2858,7 +2858,7 @@ function FileSizeByteToUnit($bit)
 /**
  * 异步调用方法
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2018-06-11
  * @desc    异步运行url地址方法
@@ -2896,7 +2896,7 @@ function SyncJob($url, $port = 80, $time = 30)
 /**
  * 公共返回数据
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-07-16
  * @desc    description
@@ -2922,7 +2922,7 @@ function DataReturn($msg = '', $code = 0, $data = '')
 /**
  * 生成url地址
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2018-06-12
  * @desc    description
@@ -3048,7 +3048,7 @@ function MyUrl($path, $params = [])
 /**
  * 生成url地址 - api前端
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2018-06-12
  * @desc    description
@@ -3079,7 +3079,7 @@ function PluginsApiUrl($plugins_name, $plugins_control = '', $plugins_action = '
 /**
  * 生成url地址 - 应用前端
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2018-06-12
  * @desc    description
@@ -3110,7 +3110,7 @@ function PluginsHomeUrl($plugins_name, $plugins_control = '', $plugins_action = 
 /**
  * 生成url地址 - 应用后端
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2018-06-12
  * @desc    description
@@ -3349,7 +3349,7 @@ function UrlParamJoin($param)
 /**
  * 读取站点配置信息
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-09-13
  * @desc    description
@@ -3437,7 +3437,7 @@ function Utf8Strlen($string = null)
 /**
  * 是否是手机访问
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2022-03-20
  * @desc    description
@@ -3481,7 +3481,7 @@ function IsMobile($agent = '')
 /**
  * 设备类型
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-11-14
  * @desc    description
@@ -3527,7 +3527,7 @@ function IsJson($jsonstr)
 /**
  * 请求get，支持本地文件
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-08-07
  * @desc    description
@@ -3722,7 +3722,7 @@ function XmlArray($xml) {
 /**
  * 判断字符串是否为xml格式
  * @author   wls
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2019-01-07
  * @desc    description
@@ -4362,7 +4362,7 @@ if(!function_exists('str_starts_with'))
     /**
      * 检查字符串是否以给定的子字符串开头
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-06-15
      * @desc    description
@@ -4381,7 +4381,7 @@ if(!function_exists('str_ends_with'))
     /**
      * 检查字符串是否以给定的子字符串结尾
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-06-15
      * @desc    description

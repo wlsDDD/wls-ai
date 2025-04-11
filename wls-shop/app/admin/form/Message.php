@@ -15,7 +15,7 @@ use think\facade\Db;
 /**
  * 消息管理动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-26
  * @desc    description
@@ -30,7 +30,7 @@ class Message
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-26
      * @desc    description
@@ -189,7 +189,7 @@ class Message
     /**
      * 是否删除条件符号处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -214,7 +214,7 @@ class Message
     /**
      * 是否删除条件值处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -229,7 +229,7 @@ class Message
     /**
      * 业务类型
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-26
      * @desc    description

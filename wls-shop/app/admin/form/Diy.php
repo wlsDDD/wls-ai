@@ -13,7 +13,7 @@ namespace app\admin\form;
 /**
  * DIY装修动态表格-管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-05-16
  * @desc    description
@@ -26,7 +26,7 @@ class Diy
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-05-16
      * @desc    description

@@ -24,7 +24,7 @@ class PayRequestLog extends Base
     /**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-23
      * @desc    description
@@ -37,7 +37,7 @@ class PayRequestLog extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-23
      * @desc    description

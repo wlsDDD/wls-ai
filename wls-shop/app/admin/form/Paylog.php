@@ -16,7 +16,7 @@ use app\service\PayLogService;
 /**
  * 支付日志动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-26
  * @desc    description
@@ -31,7 +31,7 @@ class PayLog
 
     /**
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-29
      * @desc    description
@@ -57,7 +57,7 @@ class PayLog
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-26
      * @desc    description
@@ -276,7 +276,7 @@ class PayLog
     /**
      * 支付方式类型
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-26
      * @desc    description
@@ -301,7 +301,7 @@ class PayLog
     /**
      * 关联业务条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-30
      * @desc    description

@@ -27,7 +27,7 @@ class Agreement extends Base
     /**
      * 配置列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-05-16
      * @desc    description
@@ -53,7 +53,7 @@ class Agreement extends Base
     /**
      * 配置数据保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-05-16
      * @desc    description

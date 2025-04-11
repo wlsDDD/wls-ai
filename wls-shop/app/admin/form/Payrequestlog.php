@@ -15,7 +15,7 @@ use think\facade\Db;
 /**
  * 支付请求日志动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-26
  * @desc    description
@@ -28,7 +28,7 @@ class PayRequestLog
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-26
      * @desc    description
@@ -263,7 +263,7 @@ class PayRequestLog
     /**
      * 条件字段列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-23
      * @desc    description

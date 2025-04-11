@@ -18,7 +18,7 @@ use app\service\ResourcesService;
 /**
  * 仓库管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-07
  * @desc    description
@@ -28,7 +28,7 @@ class Warehouse extends Base
     /**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-07
      * @desc    description
@@ -53,7 +53,7 @@ class Warehouse extends Base
     /**
      * 添加/编辑页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-07
      * @desc    description
@@ -98,7 +98,7 @@ class Warehouse extends Base
     /**
      * 添加/编辑
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-07
      * @desc    description
@@ -112,7 +112,7 @@ class Warehouse extends Base
     /**
      * 删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-07
      * @desc    description
@@ -127,7 +127,7 @@ class Warehouse extends Base
     /**
      * 状态更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-07
      * @desc    description

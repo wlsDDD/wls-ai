@@ -13,7 +13,7 @@ namespace app\admin\form;
 /**
  * 角色管理动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-11
  * @desc    description
@@ -26,7 +26,7 @@ class Role
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-11
      * @desc    description

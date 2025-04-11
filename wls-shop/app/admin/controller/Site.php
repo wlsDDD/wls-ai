@@ -57,7 +57,7 @@ class Site extends Base
     /**
      * 配置列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-25
      * @desc    description
@@ -149,7 +149,7 @@ class Site extends Base
     /**
      * 公共视图
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-21
      * @desc    description
@@ -213,7 +213,7 @@ class Site extends Base
     /**
      * 配置数据保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-25
      * @desc    description
@@ -375,7 +375,7 @@ class Site extends Base
     /**
      * 商品搜索
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-25
      * @desc    description

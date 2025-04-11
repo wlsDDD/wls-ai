@@ -64,7 +64,7 @@ class Region extends Base
     /**
      * 状态更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -93,7 +93,7 @@ class Region extends Base
 	/**
      * 获取地区节点数据
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-21
      * @desc    description
@@ -113,7 +113,7 @@ class Region extends Base
     /**
      * 获取地区编号数据
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-21
      * @desc    description

@@ -30,7 +30,7 @@ class Buy extends Common
     /**
      * 构造方法
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-11-30
      * @desc    description
@@ -120,7 +120,7 @@ class Buy extends Common
     /**
      * 订单添加
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-25
      * @desc    description

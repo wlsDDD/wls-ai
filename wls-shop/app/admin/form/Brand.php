@@ -17,7 +17,7 @@ use app\service\BrandCategoryService;
 /**
  * 品牌动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-19
  * @desc    description
@@ -30,7 +30,7 @@ class Brand
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-18
      * @desc    description
@@ -197,7 +197,7 @@ class Brand
     /**
      * 品牌分类
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-19
      * @desc    description
@@ -211,7 +211,7 @@ class Brand
     /**
      * 品牌分类条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-03
      * @desc    description

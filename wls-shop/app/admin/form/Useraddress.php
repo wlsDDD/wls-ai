@@ -15,7 +15,7 @@ use app\service\RegionService;
 /**
  * 用户地址动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-19
  * @desc    description
@@ -28,7 +28,7 @@ class UserAddress
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-18
      * @desc    description
@@ -224,7 +224,7 @@ class UserAddress
     /**
      * 获取地区省份数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-08
      * @desc    description

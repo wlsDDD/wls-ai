@@ -15,7 +15,7 @@ use app\service\AttachmentCategoryService;
 /**
  * 附件动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-16
  * @desc    description
@@ -30,7 +30,7 @@ class Attachment
 
     /**
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-29
      * @desc    description
@@ -46,7 +46,7 @@ class Attachment
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-16
      * @desc    description

@@ -26,7 +26,7 @@ class PackageInstall extends Base
     /**
      * 获取安装参数
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -41,7 +41,7 @@ class PackageInstall extends Base
     /**
      * 软件安装
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-02-22
      * @desc    description

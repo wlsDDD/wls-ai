@@ -61,7 +61,7 @@ class Common extends BaseController
 	/**
      * 构造方法
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-11-30
      * @desc    description
@@ -90,7 +90,7 @@ class Common extends BaseController
     /**
      * 析构函数
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-03-18
      * @desc    description
@@ -104,7 +104,7 @@ class Common extends BaseController
     /**
      * 系统初始化
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-12-07
      * @desc    description
@@ -154,7 +154,7 @@ class Common extends BaseController
     /**
      * 动态表格初始化
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-02
      * @desc    description
@@ -220,7 +220,7 @@ class Common extends BaseController
 	/**
      * 空方法响应
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-11-30
      * @desc    description

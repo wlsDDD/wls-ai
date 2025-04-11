@@ -26,7 +26,7 @@ class Admin extends Common
 	/**
      * 构造方法
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -56,7 +56,7 @@ class Admin extends Common
 	/**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -69,7 +69,7 @@ class Admin extends Common
 	/**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -82,7 +82,7 @@ class Admin extends Common
 	/**
      * 管理员添加/编辑页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -154,7 +154,7 @@ class Admin extends Common
 	/**
      * 管理员添加/编辑
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -182,7 +182,7 @@ class Admin extends Common
 	/**
      * 管理员删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -197,7 +197,7 @@ class Admin extends Common
 	/**
      * 登录页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -250,7 +250,7 @@ class Admin extends Common
 	/**
      * 管理员登录
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -264,7 +264,7 @@ class Admin extends Common
     /**
      * 验证码显示
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -284,7 +284,7 @@ class Admin extends Common
     /**
      * 登录验证码发送
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description
@@ -297,7 +297,7 @@ class Admin extends Common
 	/**
      * 退出
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-03
      * @desc    description

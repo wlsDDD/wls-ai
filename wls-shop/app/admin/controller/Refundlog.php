@@ -24,7 +24,7 @@ class RefundLog extends Base
     /**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-08-01
      * @desc    description
@@ -37,7 +37,7 @@ class RefundLog extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-08-01
      * @desc    description

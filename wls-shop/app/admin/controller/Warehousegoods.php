@@ -19,7 +19,7 @@ use app\service\GoodsCategoryService;
 /**
  * 仓库商品管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-11
  * @desc    description
@@ -29,7 +29,7 @@ class WarehouseGoods extends Base
     /**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-11
      * @desc    description
@@ -103,7 +103,7 @@ class WarehouseGoods extends Base
     /**
      * 库存编辑页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-11
      * @desc    description
@@ -133,7 +133,7 @@ class WarehouseGoods extends Base
     /**
      * 库存编辑
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-11
      * @desc    description
@@ -147,7 +147,7 @@ class WarehouseGoods extends Base
     /**
      * 删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-11
      * @desc    description
@@ -162,7 +162,7 @@ class WarehouseGoods extends Base
     /**
      * 状态更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-11
      * @desc    description
@@ -177,7 +177,7 @@ class WarehouseGoods extends Base
     /**
      * 商品搜索
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-13
      * @desc    description
@@ -196,7 +196,7 @@ class WarehouseGoods extends Base
     /**
      * 仓库商品添加
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-14
      * @desc    description
@@ -210,7 +210,7 @@ class WarehouseGoods extends Base
     /**
      * 仓库商品删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-14
      * @desc    description

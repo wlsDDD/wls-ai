@@ -15,7 +15,7 @@ use think\facade\Db;
 /**
  * 商品收藏管理动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-30
  * @desc    description
@@ -28,7 +28,7 @@ class GoodsFavor
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-30
      * @desc    description

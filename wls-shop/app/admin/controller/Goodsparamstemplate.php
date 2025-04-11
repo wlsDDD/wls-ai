@@ -18,7 +18,7 @@ use app\service\GoodsParamsService;
 /**
  * 商品参数管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-11-27
  * @desc    description
@@ -28,7 +28,7 @@ class GoodsParamsTemplate extends Base
 	/**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-27
      * @desc    description
@@ -41,7 +41,7 @@ class GoodsParamsTemplate extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-27
      * @desc    description
@@ -64,7 +64,7 @@ class GoodsParamsTemplate extends Base
     /**
      * 添加/编辑页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-27
      * @desc    description
@@ -111,7 +111,7 @@ class GoodsParamsTemplate extends Base
 	/**
      * 保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-27
      * @desc    description
@@ -125,7 +125,7 @@ class GoodsParamsTemplate extends Base
 	/**
      * 删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-27
      * @desc    description
@@ -140,7 +140,7 @@ class GoodsParamsTemplate extends Base
     /**
      * 状态更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-27
      * @desc    description

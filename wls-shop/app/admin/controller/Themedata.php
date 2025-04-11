@@ -22,7 +22,7 @@ use app\service\ArticleCategoryService;
 /**
  * 主题数据
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2024-03-31
  * @desc    description
@@ -33,7 +33,7 @@ class ThemeData extends Base
      * 列表
      * @author  Devil
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-03-31
      * @desc    description
@@ -48,7 +48,7 @@ class ThemeData extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-03-31
      * @desc    description
@@ -63,7 +63,7 @@ class ThemeData extends Base
     /**
      * 添加/编辑页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-03-31
      * @desc    description
@@ -109,7 +109,7 @@ class ThemeData extends Base
     /**
      * 页面视图数据
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-04-02
      * @desc    description
@@ -148,7 +148,7 @@ class ThemeData extends Base
     /**
      * 保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-03-31
      * @desc    description
@@ -161,7 +161,7 @@ class ThemeData extends Base
     /**
      * 状态更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-03-31
      * @desc    description
@@ -174,7 +174,7 @@ class ThemeData extends Base
     /**
      * 删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-03-31
      * @desc    description
@@ -187,7 +187,7 @@ class ThemeData extends Base
     /**
      * 上传
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-03-31
      * @desc    description
@@ -200,7 +200,7 @@ class ThemeData extends Base
     /**
      * 打包下载
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2024-03-31
      * @desc    description
@@ -218,7 +218,7 @@ class ThemeData extends Base
     /**
      * 商品搜索
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-25
      * @desc    description
@@ -237,7 +237,7 @@ class ThemeData extends Base
     /**
      * 文章搜索
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-11-25
      * @desc    description

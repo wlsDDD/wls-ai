@@ -26,7 +26,7 @@ class Packageupgrade extends Base
     /**
      * 软件更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-02-22
      * @desc    description

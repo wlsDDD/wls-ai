@@ -26,7 +26,7 @@ class Orderaftersale extends Base
     /**
      * 列表
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-28
      * @desc    description
@@ -53,7 +53,7 @@ class Orderaftersale extends Base
     /**
      * 确认
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-05-23
      * @desc    description
@@ -69,7 +69,7 @@ class Orderaftersale extends Base
     /**
      * 审核
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-05-23
      * @desc    description
@@ -85,7 +85,7 @@ class Orderaftersale extends Base
     /**
      * 拒绝
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-05-23
      * @desc    description
@@ -101,7 +101,7 @@ class Orderaftersale extends Base
     /**
      * 取消
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-30
      * @desc    description
@@ -117,7 +117,7 @@ class Orderaftersale extends Base
     /**
      * 删除
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-30
      * @desc    description

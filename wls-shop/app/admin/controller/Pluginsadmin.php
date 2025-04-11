@@ -210,7 +210,7 @@ class Pluginsadmin extends Base
     /**
      * 应用打包
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-03-22
      * @desc    description
@@ -228,7 +228,7 @@ class Pluginsadmin extends Base
     /**
      * 上传到商店
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-17
      * @desc    description
@@ -241,7 +241,7 @@ class Pluginsadmin extends Base
     /**
      * 安装
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-17
      * @desc    description
@@ -254,7 +254,7 @@ class Pluginsadmin extends Base
     /**
      * 卸载
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-17
      * @desc    description
@@ -267,7 +267,7 @@ class Pluginsadmin extends Base
     /**
      * 设置保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-01-05
      * @desc    description
@@ -280,7 +280,7 @@ class Pluginsadmin extends Base
     /**
      * 插件更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-01-05
      * @desc    description
@@ -293,7 +293,7 @@ class Pluginsadmin extends Base
     /**
      * 应用市场
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description

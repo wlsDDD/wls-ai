@@ -15,7 +15,7 @@ use think\facade\Db;
 /**
  * 订单售后动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-08
  * @desc    description
@@ -28,7 +28,7 @@ class OrderAftersale
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -292,7 +292,7 @@ class OrderAftersale
     /**
      * 基础条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description

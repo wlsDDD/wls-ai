@@ -26,7 +26,7 @@ class Store extends Base
     /**
      * 应用商店首页
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-06-13
      * @desc    description
@@ -43,7 +43,7 @@ class Store extends Base
     /**
      * 应用市场
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description

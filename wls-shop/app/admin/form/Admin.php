@@ -15,7 +15,7 @@ use app\service\AdminService;
 /**
  * 管理员动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-11
  * @desc    description
@@ -30,7 +30,7 @@ class Admin
 
     /**
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-29
      * @desc    description
@@ -49,7 +49,7 @@ class Admin
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-11
      * @desc    description

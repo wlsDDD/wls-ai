@@ -22,7 +22,7 @@ use app\module\LayoutModule;
 /**
  * 页面设计管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-09-10
  * @desc    description
@@ -32,7 +32,7 @@ class Design extends Base
     /**
      * 首页
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-10
      * @desc    description
@@ -47,7 +47,7 @@ class Design extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-10
      * @desc    description
@@ -60,7 +60,7 @@ class Design extends Base
     /**
      * 编辑页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-10
      * @desc    description
@@ -123,7 +123,7 @@ class Design extends Base
     /**
      * 下载
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-17
      * @desc    description
@@ -141,7 +141,7 @@ class Design extends Base
     /**
      * 保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-29
      * @desc    description
@@ -154,7 +154,7 @@ class Design extends Base
     /**
      * 状态更新
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -167,7 +167,7 @@ class Design extends Base
     /**
      * 删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description
@@ -180,7 +180,7 @@ class Design extends Base
     /**
      * 同步到首页
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description
@@ -193,7 +193,7 @@ class Design extends Base
     /**
      * 导入
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description
@@ -206,7 +206,7 @@ class Design extends Base
     /**
      * 模板市场
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description

@@ -13,7 +13,7 @@ namespace app\admin\form;
 /**
  * 积分日志动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-27
  * @desc    description
@@ -26,7 +26,7 @@ class IntegralLog
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-27
      * @desc    description

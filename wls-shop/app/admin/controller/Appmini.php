@@ -19,7 +19,7 @@ use app\service\StoreService;
 /**
  * 小程序管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-07-13
  * @desc    description
@@ -35,7 +35,7 @@ class Appmini extends Base
 	/**
 	 * 构造方法
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2020-07-13
 	 * @desc    description
@@ -56,7 +56,7 @@ class Appmini extends Base
 	/**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-13
      * @desc    description
@@ -97,7 +97,7 @@ class Appmini extends Base
     /**
      * 小程序包列表页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-13
      * @desc    description
@@ -114,7 +114,7 @@ class Appmini extends Base
 	/**
 	 * 公共视图
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2020-11-21
 	 * @desc    description
@@ -142,7 +142,7 @@ class Appmini extends Base
 	/**
 	 * 主题上传安装
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2020-11-21
 	 * @desc    description
@@ -187,7 +187,7 @@ class Appmini extends Base
 	/**
 	 * 主题删除
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2020-11-21
 	 * @desc    description
@@ -201,7 +201,7 @@ class Appmini extends Base
 	/**
      * 配置
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-13
      * @desc    description
@@ -222,7 +222,7 @@ class Appmini extends Base
 	/**
 	 * 生成
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2020-07-13
 	 * @desc    description
@@ -235,7 +235,7 @@ class Appmini extends Base
 	/**
 	 * 配置保存
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2020-07-13
 	 * @desc    description
@@ -248,7 +248,7 @@ class Appmini extends Base
 	/**
 	 * 删除
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2020-07-13
 	 * @desc    description

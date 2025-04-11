@@ -64,7 +64,7 @@ class Power extends Base
 	/**
 	 * 状态更新
 	 * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-03-31
      * @desc    description

@@ -26,7 +26,7 @@ class Layout extends Base
     /**
      * 前端首页布局保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-06-22
      * @desc    description

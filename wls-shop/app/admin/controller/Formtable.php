@@ -41,7 +41,7 @@ class FormTable extends Common
     /**
      * 字段选择保存
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-10-08
      * @desc    description
@@ -57,7 +57,7 @@ class FormTable extends Common
     /**
      * 字段选择重置
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-10-08
      * @desc    description

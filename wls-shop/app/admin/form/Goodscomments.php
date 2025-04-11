@@ -15,7 +15,7 @@ use think\facade\Db;
 /**
  * 商品评论动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-08
  * @desc    description
@@ -28,7 +28,7 @@ class GoodsComments
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -253,7 +253,7 @@ class GoodsComments
     /**
      * 商品信息条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description

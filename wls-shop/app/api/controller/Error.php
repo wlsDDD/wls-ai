@@ -8,47 +8,33 @@
 // +----------------------------------------------------------------------
 // | Author: wls
 // +----------------------------------------------------------------------
-namespace app\admin\controller;
+namespace app\api\controller;
+
+use app\service\ApiService;
 
 /**
- * 地图
- * @author  Devil
+ * 空控制器响应
+ * @author   wls
  *
  * @version 1.0.0
- * @date    2020-09-10
+ * @date    2018-11-30
  * @desc    description
  */
-class Map extends Common
+class Error extends Common
 {
     /**
-     * 构造方法
+     * 空控制器响应
      * @author   wls
      *
-     * @version  0.0.1
-     * @datetime 2016-12-03T12:39:08+0800
-     */
-    public function __construct()
-    {
-        // 调用父类前置方法
-        parent::__construct();
-
-        // 登录校验
-        $this->IsLogin();
-    }
-
-    /**
-     * 地图插件页面
-     * @author  Devil
-     *
      * @version 1.0.0
-     * @date    2020-09-10
+     * @date    2018-11-30
      * @desc    description
+     * @param   [string]         $method [方法名称]
+     * @param   [array]          $args   [参数]
      */
-    public function Index()
+    public function __call($method, $args)
     {
-        // 加载地图
-        MyViewAssign('is_load_map_api', 1);
-        return MyView();
+        return ApiService::ApiDataReturn(DataReturn(MyLang('controller_not_exist_tips').'('.RequestController().')', -1000));
     }
 }
 ?>

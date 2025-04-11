@@ -71,7 +71,7 @@ class ThemeAdmin extends Base
     /**
      * 上传页面
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-09-10
      * @desc    description
@@ -85,7 +85,7 @@ class ThemeAdmin extends Base
     /**
      * 打包下载
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-03-22
      * @desc    description
@@ -127,7 +127,7 @@ class ThemeAdmin extends Base
     /**
      * 上传到商店
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-09-17
      * @desc    description
@@ -152,7 +152,7 @@ class ThemeAdmin extends Base
     /**
      * 模板市场
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-19
      * @desc    description

@@ -17,7 +17,7 @@ use app\service\GoodsBrowseService;
 /**
  * 商品浏览管理
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-30
  * @desc    description
@@ -27,7 +27,7 @@ class GoodsBrowse extends Base
     /**
      * 列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-30
      * @desc    description
@@ -40,7 +40,7 @@ class GoodsBrowse extends Base
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-30
      * @desc    description
@@ -53,7 +53,7 @@ class GoodsBrowse extends Base
     /**
      * 删除
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-30
      * @desc    description

@@ -160,7 +160,7 @@ class Index extends Common
 	/**
 	 * 配色切换
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2022-08-13
 	 * @desc    description
@@ -173,7 +173,7 @@ class Index extends Common
 	/**
      * 钩子初始化
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-12-07
      * @desc    description
@@ -219,7 +219,7 @@ class Index extends Common
 	/**
 	 * 应用商店帐号绑定
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2021-04-16
 	 * @desc    description
@@ -233,7 +233,7 @@ class Index extends Common
 	/**
 	 * 检查更新
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2021-04-16
 	 * @desc    description
@@ -247,7 +247,7 @@ class Index extends Common
 	/**
 	 * 检查更新确认
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2021-04-16
 	 * @desc    description
@@ -261,7 +261,7 @@ class Index extends Common
 	/**
 	 * 统计数据
 	 * @author  Devil
-	 * @blog    http://gong.gg/
+	 *
 	 * @version 1.0.0
 	 * @date    2021-08-30
 	 * @desc    description

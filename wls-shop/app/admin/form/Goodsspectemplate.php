@@ -15,7 +15,7 @@ use app\service\GoodsCategoryService;
 /**
  * 商品规格动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-19
  * @desc    description
@@ -30,7 +30,7 @@ class GoodsSpecTemplate
 
     /**
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-29
      * @desc    description
@@ -46,7 +46,7 @@ class GoodsSpecTemplate
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-18
      * @desc    description

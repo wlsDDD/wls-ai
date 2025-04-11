@@ -16,7 +16,7 @@ use app\service\PaymentService;
 /**
  * 订单动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-08
  * @desc    description
@@ -31,7 +31,7 @@ class Order
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -454,7 +454,7 @@ class Order
     /**
      * 评论条件符号处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -479,7 +479,7 @@ class Order
     /**
      * 评论条件值处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -494,7 +494,7 @@ class Order
     /**
      * 订单仓库列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-07-29
      * @desc    description
@@ -515,7 +515,7 @@ class Order
     /**
      * 取货码条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -538,7 +538,7 @@ class Order
     /**
      * 服务信息条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -561,7 +561,7 @@ class Order
     /**
      * 地址条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -584,7 +584,7 @@ class Order
     /**
      * 基础条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -613,7 +613,7 @@ class Order
     /**
      * 快递条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description

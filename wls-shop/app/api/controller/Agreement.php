@@ -25,7 +25,7 @@ class Agreement extends Common
     /**
      * 构造方法
      * @author   wls
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2018-11-30
      * @desc    description
@@ -38,7 +38,7 @@ class Agreement extends Common
     /**
      * 详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2019-05-16
      * @desc    description

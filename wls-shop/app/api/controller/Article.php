@@ -19,7 +19,7 @@ use app\service\ResourcesService;
 /**
  * 文章
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2021-11-08
  * @desc    description
@@ -29,7 +29,7 @@ class Article extends Common
     /**
      * 构造方法
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-11-08
      * @desc    description
@@ -43,7 +43,7 @@ class Article extends Common
     /**
      * 初始化
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-11-08
      * @desc    description
@@ -63,7 +63,7 @@ class Article extends Common
     /**
      * 分类文章列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-11-08
      * @desc    description
@@ -101,7 +101,7 @@ class Article extends Common
     /**
      * 文章详情
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2021-11-08
      * @desc    description

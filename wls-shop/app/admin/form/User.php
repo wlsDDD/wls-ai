@@ -15,7 +15,7 @@ use think\facade\Db;
 /**
  * 用户动态表格
  * @author  Devil
- * @blog    http://gong.gg/
+ *
  * @version 1.0.0
  * @date    2020-06-08
  * @desc    description
@@ -28,7 +28,7 @@ class User
     /**
      * 入口
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -319,7 +319,7 @@ class User
     /**
      * 系统类型条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -342,7 +342,7 @@ class User
     /**
      * 用户平台条件处理
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2020-06-08
      * @desc    description
@@ -365,7 +365,7 @@ class User
     /**
      * 系统类型列表
      * @author  Devil
-     * @blog    http://gong.gg/
+     *
      * @version 1.0.0
      * @date    2022-04-14
      * @desc    description
